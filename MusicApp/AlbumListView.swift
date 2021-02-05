@@ -9,31 +9,29 @@ import SwiftUI
 
 struct AlbumListView: View {
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading) {
-                Text("My Albums")
-                    .font(.largeTitle)
-                    .bold()
-                    .padding(8)
-                ScrollView(.horizontal) {
-                    HStack(spacing: 10) {
+        NavigationView {
+            ScrollView {
+                VStack(alignment: .leading) {
+                    ScrollView(.horizontal) {
+                        HStack(spacing: 10) {
+                            ForEach(albumlist, id: \.id) { album in
+                                AlbumCard(album: album)
+                            }
+                        }.padding(8)
+                        .frame(height: 400)
+                    }
+                    
+                    Text("Top Albums")
+                        .font(.largeTitle)
+                        .bold()
+                        .padding(8)
+                    VStack() {
                         ForEach(albumlist, id: \.id) { album in
-                            AlbumCard(album: album)
+                            TopAlbumCard(album: album)
                         }
-                    }.padding(8)
-                    .frame(height: 400)
-                }
-                
-                Text("Top Albums")
-                    .font(.largeTitle)
-                    .bold()
-                    .padding(8)
-                VStack() {
-                    ForEach(albumlist, id: \.id) { album in
-                        TopAlbumCard(album: album)
                     }
                 }.padding()
-            }
+            }.navigationBarTitle("My Albums")
         }
     }
 }
