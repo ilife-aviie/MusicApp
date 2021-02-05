@@ -16,6 +16,7 @@
 		22307D2525CCC8BE0056D622 /* AlbumCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22307D2425CCC8BE0056D622 /* AlbumCard.swift */; };
 		22307D2A25CCCA340056D622 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22307D2925CCCA340056D622 /* Album.swift */; };
 		22307D2F25CCD0560056D622 /* TopAlbumCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22307D2E25CCD0560056D622 /* TopAlbumCard.swift */; };
+		22307D3725CCE18A0056D622 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22307D3625CCE18A0056D622 /* AlbumDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		22307D2425CCC8BE0056D622 /* AlbumCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCard.swift; sourceTree = "<group>"; };
 		22307D2925CCCA340056D622 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		22307D2E25CCD0560056D622 /* TopAlbumCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumCard.swift; sourceTree = "<group>"; };
+		22307D3625CCE18A0056D622 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				22307D2425CCC8BE0056D622 /* AlbumCard.swift */,
 				22307D2925CCCA340056D622 /* Album.swift */,
 				22307D2E25CCD0560056D622 /* TopAlbumCard.swift */,
+				22307D3625CCE18A0056D622 /* AlbumDetailView.swift */,
 				22307CF425CCC6850056D622 /* Assets.xcassets */,
 				22307CF925CCC6850056D622 /* Info.plist */,
 				22307CF625CCC6850056D622 /* Preview Content */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22307CF325CCC6820056D622 /* AlbumListView.swift in Sources */,
+				22307D3725CCE18A0056D622 /* AlbumDetailView.swift in Sources */,
 				22307D2525CCC8BE0056D622 /* AlbumCard.swift in Sources */,
 				22307CF125CCC6820056D622 /* MusicAppApp.swift in Sources */,
 				22307D2A25CCCA340056D622 /* Album.swift in Sources */,

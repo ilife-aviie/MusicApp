@@ -14,7 +14,7 @@ struct AlbumCard: View {
         VStack {
             Image(album.albumArtString)
                 .resizable()
-                .aspectRatio(contentMode:.fill)
+                .aspectRatio(contentMode:.fit)
                 .frame(width: 180, height: 300)
             VStack {
                 Text(album.name)
